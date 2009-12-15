@@ -1,9 +1,9 @@
 <% if voteable.votes_count > 0 %>
-  <strong><%= I18n.t('tog_core.site.voting.voting') %></strong><br />
-  <%= I18n.t('tog_core.site.voting.for') + ' ' + voteable.votes_for.to_s %>&nbsp;
-  <%= I18n.t('tog_core.site.voting.against') + ' ' + voteable.votes_against.to_s %>
+  <strong><%= I18n.t('tog_forum.site.voting.voting') %></strong><br />
+  <%= I18n.t('tog_forum.site.voting.for') + ' ' + voteable.votes_for.to_s %>&nbsp;
+  <%= I18n.t('tog_forum.site.voting.against') + ' ' + voteable.votes_against.to_s %>
 <% else %>
-  <%= I18n.t('tog_core.site.voting.no_votes_yet') %>
+  <%= I18n.t('tog_forum.site.voting.no_votes_yet') %>
 <% end %>
 <% if logged_in? # && current_user != voteable.user %>
   <%= [:for, :against].collect { |vote| vote_link(voteable, vote) }.join(' | ') %>

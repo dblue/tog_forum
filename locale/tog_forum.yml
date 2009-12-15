@@ -5,14 +5,21 @@ en:
     site:
       forums: Forums
       forum: forum
-      topic: tema
+      topic: Topic
       posts: Posts
   tog_forum:
     plugin_title: Forums
     site:
       no_forums: No forums yet.
-      create_topic: add a topic
+      create_topic: Add a topic
       post_topic: Post topic
+      voting:
+        voting: Votes
+        for: For
+        against: Against
+        already_voted: You've already voted!
+        added: Vote added!
+        no_votes_yet: No votes yet
     admin:
       create_forum: Create forum
       forum_details: Forum details

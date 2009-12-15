@@ -10,3 +10,9 @@ end
 namespace(:admin) do |admin|
   admin.resources :forums
 end
+
+namespace(:member) do |member|
+  member.with_options(:controller => 'votes') do |vote|
+    vote.vote '/vote', :action => 'create'
+  end
+end

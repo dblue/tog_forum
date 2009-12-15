@@ -13,6 +13,13 @@ es:
       no_forums: Aún no hay foros.
       create_topic: Añadir tema
       post_topic: Guardar tema
+      voting:
+        voting: Votos
+        for: A favor
+        against: En contra
+        already_voted: Ya has votado esta entrada
+        added: Voto añadido!
+        no_votes_yet: Todavía no hay votos
     admin:
       create_forum: Crear foro
       forum_details: Detalles
